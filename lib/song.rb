@@ -12,11 +12,6 @@ class Song
 
   @@songs = []
 
-  def initialize
-    super
-    # @@songs << self
-    # self.class.all << self # this is equaivalent to Song.all << self
-  end
 
 #CLASS METHODS
   def self.find_by_name(name)
