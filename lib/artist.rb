@@ -33,7 +33,9 @@ class Artist
   end
 
   def add_songs(songs)
-    songs.each { |song| add_song(song) }
+    songs.each do |song|
+      add_song(song)
+    end 
   end
 
   def to_param
